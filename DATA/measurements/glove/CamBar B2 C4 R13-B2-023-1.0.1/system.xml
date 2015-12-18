@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<sys xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi="noNamespace">
+
+  <name>CamBar B2 C4 R13</name>
+
+  <sn>B2-023</sn>
+
+  <rev>1.0.1</rev>
+
+  <cfg cal="metro_calibration.xml" id="1" set="metro_system_settings.xml"/>
+
+</sys>

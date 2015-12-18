@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<metrology_system_settings format_version="10" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi="noNamespace">
+
+  <emmett format_version="1">
+    <device initstate="1" name="CamBar B2" type="baumer_acq">
+      <software_trigger>0</software_trigger>
+      <trace_log>
+        <enabled>0</enabled>
+        <file>bgapi_trace_log.log</file>
+      </trace_log>
+      <camera>
+        <serial_number>0002814207</serial_number>
+        <exposure_time>600</exposure_time>
+        <max_exposure_time>2500</max_exposure_time>
+        <master>1</master>
+        <image_format_id>1</image_format_id>
+        <flash>1</flash>
+        <packet_delay_ticks>50</packet_delay_ticks>
+        <trigger_delay>0</trigger_delay>
+        <continuous_framerate>
+          <enabled>1</enabled>
+          <framerate>20.0</framerate>
+        </continuous_framerate>
+        <partial_scan>
+          <enabled>1</enabled>
+          <left>172</left>
+          <top>0</top>
+          <right>1392</right>
+          <bottom>1040</bottom>
+        </partial_scan>
+      </camera>
+      <camera>
+        <serial_number>0178420812</serial_number>
+        <exposure_time>750</exposure_time>
+        <max_exposure_time>2500</max_exposure_time>
+        <master>0</master>
+        <image_format_id>1</image_format_id>
+        <flash>0</flash>
+        <packet_delay_ticks>50</packet_delay_ticks>
+        <partial_scan>
+          <enabled>1</enabled>
+          <left>0</left>
+          <top>0</top>
+          <right>1220</right>
+          <bottom>1040</bottom>
+        </partial_scan>
+      </camera>
+      <use_as_slave>1</use_as_slave>
+    </device>
+    <device initstate="1" name="BlitzController" type="a3m">
+      <configuration>
+        <duration>900</duration>
+        <intensity>2500</intensity>
+        <delay>0</delay>
+        <edge_rising>1</edge_rising>
+        <temperature_interval>60000</temperature_interval>
+        <flashing_time_from_start_led_0>60000</flashing_time_from_start_led_0>
+        <flashing_time_from_start_led_1>3000</flashing_time_from_start_led_1>
+      </configuration>
+    </device>
+  </emmett>
+
+  <bunseki>
+    <measurementvolume>
+      <use type="pyramid">
+        <pyramid>
+          <r00>1.0</r00>
+          <r01>0.0</r01>
+          <r02>0.0</r02>
+          <r10>0.0</r10>
+          <r11>1.0</r11>
+          <r12>0.0</r12>
+          <r20>0.0</r20>
+          <r21>0.0</r21>
+          <r22>1.0</r22>
+          <translation_x>0.0</translation_x>
+          <translation_y>0.0</translation_y>
+          <translation_z>-300.0</translation_z>
+          <a>1200.0</a>
+          <b>1000.0</b>
+          <c>250.0</c>
+          <d>300.0</d>
+          <h>600.0</h>
+        </pyramid>
+      </use>
+      <clippingplanemax>2000.0</clippingplanemax>
+    </measurementvolume>
+    <acc_classes>
+      <point ok_border="4">
+        <_3drms>
+          <class id="1">0.2</class>
+          <class id="2">0.3</class>
+          <class id="3">0.375</class>
+          <class id="4">0.45</class>
+        </_3drms>
+        <img>
+          <class id="1">0.04</class>
+          <class id="2">0.06</class>
+          <class id="3">0.09</class>
+          <class id="4">0.15</class>
+        </img>
+      </point>
+      <locator ok_border="4">
+        <trafo>
+          <class id="1">0.1</class>
+          <class id="2">0.25</class>
+          <class id="3">0.5</class>
+          <class id="4">0.8</class>
+        </trafo>
+        <adjustment>
+          <class id="1">0.1</class>
+          <class id="2">0.2</class>
+          <class id="3">0.35</class>
+          <class id="4">0.5</class>
+        </adjustment>
+        <img>
+          <class id="1">0.05</class>
+          <class id="2">0.10</class>
+          <class id="3">0.15</class>
+          <class id="4">0.25</class>
+        </img>
+      </locator>
+    </acc_classes>
+    <pointanalysis>
+      <max3drms>0.8</max3drms>
+    </pointanalysis>
+    <locatoranalysis>
+      <minpointfactorforresolution>0.75</minpointfactorforresolution>
+    </locatoranalysis>
+  </bunseki>
+
+  <kuva>
+    <maximagepointrms>1.0</maximagepointrms>
+    <constant_threshold_max_image_point>100</constant_threshold_max_image_point>
+    <uselastpointsforapproximation>0</uselastpointsforapproximation>
+    <approximation>
+      <use approx_type="circleapproximation" conclusion_type="ellipsemeasurement">
+        <circleapproximation>
+          <circleapproximation>
+            <binarisation>0</binarisation>
+            <blackobjects>0</blackobjects>
+            <backgroundcolour>15</backgroundcolour>
+            <mincentercolour>10</mincentercolour>
+            <minsize>2</minsize>
+            <maxsize>30</maxsize>
+            <use_size_dependent_pair_filter>1</use_size_dependent_pair_filter>
+            <maxneighbourdistance>1.5</maxneighbourdistance>
+            <mingradient>10</mingradient>
+            <pixelstepx>1</pixelstepx>
+            <pixelstepy>1</pixelstepy>
+            <filter_intersecting_approximations enabled="1">
+              <radius_overlay>1.3</radius_overlay>
+              <elimination_outer_circle>
+                <min_ratio>0.5</min_ratio>
+                <min_edgepoints_ratio>0.7</min_edgepoints_ratio>
+              </elimination_outer_circle>
+              <elimination_inner_circle>
+                <max_outer_ratio>0.8</max_outer_ratio>
+                <min_inner_ratio>0.5</min_inner_ratio>
+                <min_edgepoints_ratio>0.7</min_edgepoints_ratio>
+                <min_gradient_comparison>0.5</min_gradient_comparison>
+                <min_gradient_symmetry>0.5</min_gradient_symmetry>
+              </elimination_inner_circle>
+            </filter_intersecting_approximations>
+          </circleapproximation>
+        </circleapproximation>
+        <ellipsemeasurement>
+          <ellipsecross>
+            <blackobjects>0</blackobjects>
+            <nearingdistance>10.0</nearingdistance>
+            <filtersize>1</filtersize>
+            <iterthreshold>1.0E-2</iterthreshold>
+            <miniterations>3</miniterations>
+            <maxiterations>6</maxiterations>
+            <finishingdistance>3.0</finishingdistance>
+            <minratio>0.2</minratio>
+            <interpolation>1</interpolation>
+            <ellipsenumerator>2.0</ellipsenumerator>
+            <mincrosses>2</mincrosses>
+            <maxcrosses>6</maxcrosses>
+          </ellipsecross>
+        </ellipsemeasurement>
+      </use>
+    </approximation>
+    <conclusion>
+      <use type="conclusion_ellipse_automatic">
+        <conclusion_ellipse_automatic>
+          <ellipse_automatic>
+            <choice>1</choice>
+            <use_nearing>0</use_nearing>
+            <stop_at_percentage_edge_points>10</stop_at_percentage_edge_points>
+            <max_flattening_to_use_contour>0.01</max_flattening_to_use_contour>
+            <measurement_choice_for_sizes>
+              <alternative max_size="1.75">average_cfs_centroid</alternative>
+              <alternative max_size="100.0">crossfine</alternative>
+            </measurement_choice_for_sizes>
+            <crossnear>
+              <blackobjects>0</blackobjects>
+              <nearingdistance>10.0</nearingdistance>
+              <filtersize>1</filtersize>
+              <iterthreshold>1.0E-2</iterthreshold>
+              <miniterations>3</miniterations>
+              <maxiterations>6</maxiterations>
+              <finishingdistance>3.0</finishingdistance>
+              <minratio>0.2</minratio>
+              <interpolation>1</interpolation>
+              <ellipsenumerator>2.0</ellipsenumerator>
+              <mincrosses>2</mincrosses>
+              <maxcrosses>6</maxcrosses>
+            </crossnear>
+            <crossfine>
+              <blackobjects>0</blackobjects>
+              <nearingdistance>1.8</nearingdistance>
+              <filtersize>2</filtersize>
+              <median_profile_filter_radius>2</median_profile_filter_radius>
+              <iterthreshold>1.0E-3</iterthreshold>
+              <miniterations>4</miniterations>
+              <maxiterations>8</maxiterations>
+              <finishingdistance>1.2</finishingdistance>
+              <minratio>0.2</minratio>
+              <interpolation>1</interpolation>
+              <ellipsenumerator>1.4</ellipsenumerator>
+              <mincrosses>2</mincrosses>
+              <maxcrosses>16</maxcrosses>
+            </crossfine>
+            <crossfine_small>
+              <blackobjects>0</blackobjects>
+              <nearingdistance>1.8</nearingdistance>
+              <filtersize>1</filtersize>
+              <median_profile_filter_radius>0</median_profile_filter_radius>
+              <iterthreshold>1.0E-3</iterthreshold>
+              <miniterations>4</miniterations>
+              <maxiterations>8</maxiterations>
+              <finishingdistance>1.2</finishingdistance>
+              <minratio>0.2</minratio>
+              <interpolation>1</interpolation>
+              <ellipsenumerator>1.4</ellipsenumerator>
+              <mincrosses>2</mincrosses>
+              <maxcrosses>12</maxcrosses>
+            </crossfine_small>
+            <centroid>
+              <black_objects>0</black_objects>
+              <pixel_value_threshold>0</pixel_value_threshold>
+              <weighting_function>gradient</weighting_function>
+            </centroid>
+            <contour>
+              <blackobjects>0</blackobjects>
+              <filtersize>1</filtersize>
+              <iterthreshold>0.00001</iterthreshold>
+              <miniterations>6</miniterations>
+              <maxiterations>12</maxiterations>
+              <ellipsenumerator>1.2</ellipsenumerator>
+              <beginedgedisplacement>1.2</beginedgedisplacement>
+              <endedgedisplacement>0.9</endedgedisplacement>
+              <averagecenters>4</averagecenters>
+              <minnoofcontourpoints>12</minnoofcontourpoints>
+              <maxnoofcontourpoints>96</maxnoofcontourpoints>
+              <safetyniveau>0.95</safetyniveau>
+              <blunderareasize>1.8</blunderareasize>
+              <blunders0threshold>0.03</blunders0threshold>
+              <blunderlowerboundfactor>1.5</blunderlowerboundfactor>
+              <blunderupperboundfactor>3</blunderupperboundfactor>
+              <blunderslope>0.6</blunderslope>
+              <interpolation>1</interpolation>
+            </contour>
+          </ellipse_automatic>
+        </conclusion_ellipse_automatic>
+      </use>
+    </conclusion>
+  </kuva>
+
+</metrology_system_settings>

@@ -1,0 +1,208 @@
+<locatordefinitions version="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi="noNamespace">
+  <locator id="L0">
+    <parameter>
+      <min_targets>4</min_targets>
+      <matching_threshold>4</matching_threshold>
+    </parameter>
+    <targets>
+      <target id="0">
+        <position>
+          <x>0</x>
+          <y>0</y>
+          <z>0</z>
+          <view>
+            <qx>0</qx>
+            <qy>0</qy>
+            <qz>1</qz>
+            <angle unit="deg">1.8e+002</angle>
+          </view>
+        </position>
+      </target>
+      <target id="1">
+        <position>
+          <x>27.79150236714307</x>
+          <y>4.440892098500626e-016</y>
+          <z>0</z>
+          <view>
+            <qx>0</qx>
+            <qy>0</qy>
+            <qz>1</qz>
+            <angle unit="deg">1.8e+002</angle>
+          </view>
+        </position>
+      </target>
+      <target id="2">
+        <position>
+          <x>-1.646020777035755</x>
+          <y>26.29559178060205</y>
+          <z>0</z>
+          <view>
+            <qx>0</qx>
+            <qy>0</qy>
+            <qz>1</qz>
+            <angle unit="deg">1.8e+002</angle>
+          </view>
+        </position>
+      </target>
+      <target id="3">
+        <position>
+          <x>-16.77976608597422</x>
+          <y>-16.89283063683083</y>
+          <z>-14.51217950263684</z>
+          <view>
+            <qx>0</qx>
+            <qy>0</qy>
+            <qz>1</qz>
+            <angle unit="deg">1.8e+002</angle>
+          </view>
+        </position>
+      </target>
+      <target id="4">
+        <position>
+          <x>15.31643852470907</x>
+          <y>-11.49132169017647</y>
+          <z>-10.05059996518726</z>
+          <view>
+            <qx>0</qx>
+            <qy>0</qy>
+            <qz>1</qz>
+            <angle unit="deg">1.8e+002</angle>
+          </view>
+        </position>
+      </target>
+    </targets>
+  </locator>
+  <locator id="L1">
+    <parameter>
+      <min_targets>4</min_targets>
+      <matching_threshold>3</matching_threshold>
+    </parameter>
+    <targets>
+      <target id="0">
+        <position>
+          <x>0</x>
+          <y>0</y>
+          <z>0</z>
+          <view>
+            <qx>0</qx>
+            <qy>0</qy>
+            <qz>1</qz>
+            <angle unit="deg">1.8e+002</angle>
+          </view>
+        </position>
+      </target>
+      <target id="1">
+        <position>
+          <x>14.93305431117686</x>
+          <y>6.661338147750939e-016</y>
+          <z>0</z>
+          <view>
+            <qx>0</qx>
+            <qy>0</qy>
+            <qz>1</qz>
+            <angle unit="deg">1.8e+002</angle>
+          </view>
+        </position>
+      </target>
+      <target id="2">
+        <position>
+          <x>-3.562143313227555</x>
+          <y>13.62093686588633</y>
+          <z>4.440892098500626e-016</z>
+          <view>
+            <qx>0</qx>
+            <qy>0</qy>
+            <qz>1</qz>
+            <angle unit="deg">1.8e+002</angle>
+          </view>
+        </position>
+      </target>
+      <target id="3">
+        <position>
+          <x>5.308290763232278</x>
+          <y>14.94461461167061</y>
+          <z>2.441784435765565</z>
+          <view>
+            <qx>0</qx>
+            <qy>0</qy>
+            <qz>1</qz>
+            <angle unit="deg">1.8e+002</angle>
+          </view>
+        </position>
+      </target>
+      <target id="4">
+        <position>
+          <x>-6.271974778696186</x>
+          <y>24.20815588604809</y>
+          <z>-0.6234586013021728</z>
+          <view>
+            <qx>0</qx>
+            <qy>0</qy>
+            <qz>1</qz>
+            <angle unit="deg">1.8e+002</angle>
+          </view>
+        </position>
+      </target>
+    </targets>
+  </locator>
+  <locator id="L2">
+    <parameter>
+      <min_targets>3</min_targets>
+      <matching_threshold>2</matching_threshold>
+    </parameter>
+    <targets>
+      <target id="0">
+        <position>
+          <x>0</x>
+          <y>0</y>
+          <z>0</z>
+          <view>
+            <qx>0</qx>
+            <qy>0</qy>
+            <qz>1</qz>
+            <angle unit="deg">1.8e+002</angle>
+          </view>
+        </position>
+      </target>
+      <target id="1">
+        <position>
+          <x>7.83947373350162</x>
+          <y>5.551115123125783e-017</y>
+          <z>0</z>
+          <view>
+            <qx>0</qx>
+            <qy>0</qy>
+            <qz>1</qz>
+            <angle unit="deg">1.8e+002</angle>
+          </view>
+        </position>
+      </target>
+      <target id="2">
+        <position>
+          <x>-3.941627674898923</x>
+          <y>7.516650190769816</y>
+          <z>-2.220446049250313e-016</z>
+          <view>
+            <qx>0</qx>
+            <qy>0</qy>
+            <qz>1</qz>
+            <angle unit="deg">1.8e+002</angle>
+          </view>
+        </position>
+      </target>
+      <target id="3">
+        <position>
+          <x>3.171070274292522</x>
+          <y>15.47579060580198</y>
+          <z>-2.19630382519974</z>
+          <view>
+            <qx>0</qx>
+            <qy>0</qy>
+            <qz>1</qz>
+            <angle unit="deg">1.8e+002</angle>
+          </view>
+        </position>
+      </target>
+    </targets>
+  </locator>
+</locatordefinitions>

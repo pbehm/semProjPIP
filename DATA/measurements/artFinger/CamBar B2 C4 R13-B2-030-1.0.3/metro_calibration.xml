@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<metrology_calibration format_version="6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi="noNamespace">
+
+  <set date="2015-01-08" humidity="0" temperature="20" time="16:26:38">
+    <camera id="0002814207">
+      <ior type="1">
+        <projection>
+          <c rms="5.90336070775e-005" unit="mm">-3.86152124765</c>
+          <temperature_correction_factor>0</temperature_correction_factor>
+        </projection>
+        <distortion>
+          <a1 rms="8.84279253513e-006">-0.0150173051009</a1>
+          <a2 rms="1.86117026672e-006">0.000570995945746</a2>
+          <a3 rms="1.17651995652e-007">-1.20105058943e-005</a3>
+          <b1 rms="1.45963579684e-006">-0.000104375813475</b1>
+          <b2 rms="1.42817481977e-006">-0.000149483994959</b2>
+          <c1 rms="4.14577582716e-006">-0.000109756421975</c1>
+          <c2 rms="4.08712940572e-006">8.25321698536e-006</c2>
+          <ppx rms="0.000110834326619" unit="mm">-0.27923238227100</ppx>
+          <ppy rms="0.000106766085327" unit="mm">0.213568149879</ppy>
+          <r0 unit="mm">2.5</r0>
+        </distortion>
+        <sensor>
+          <esx unit="mm">0.00465</esx>
+          <esy unit="mm">0.00465</esy>
+          <ssx unit="pix">1220</ssx>
+          <ssy unit="pix">1040</ssy>
+        </sensor>
+      </ior>
+      <eor>
+        <rotation transpose="1">
+          <rx rms="0" unit="rad">-0.000323466734098</rx>
+          <ry rms="0" unit="rad">4.48080545207e-005</ry>
+          <rz rms="0" unit="rad">1.57755899469</rz>
+        </rotation>
+        <translation>
+          <x rms="0" unit="mm">8.74256586179e-017</x>
+          <y rms="0" unit="mm">-100.024141784</y>
+          <z rms="0" unit="mm">-0.0403868587709</z>
+        </translation>
+      </eor>
+    </camera>
+    <camera id="0178420812">
+      <ior type="1">
+        <projection>
+          <c rms="6.14099769338e-005" unit="mm">-3.89064758543</c>
+          <temperature_correction_factor>0</temperature_correction_factor>
+        </projection>
+        <distortion>
+          <a1 rms="8.25188117233e-006">-0.0146009289078</a1>
+          <a2 rms="1.75882175373e-006">0.000547594190643</a2>
+          <a3 rms="1.10680742347e-007">-1.13039335801e-005</a3>
+          <b1 rms="1.53821548016e-006">5.86220156658e-005</b1>
+          <b2 rms="1.39003228411e-006">-0.000189662782537</b2>
+          <c1 rms="4.43819534599e-006">2.96588517404e-005</c1>
+          <c2 rms="4.37116246405e-006">-0.000109975404202</c2>
+          <ppx rms="0.000109315226567" unit="mm">0.46480857910610</ppx>
+          <ppy rms="0.000105574869816" unit="mm">0.0998577302755</ppy>
+          <r0 unit="mm">2.5</r0>
+        </distortion>
+        <sensor>
+          <esx unit="mm">0.00465</esx>
+          <esy unit="mm">0.00465</esy>
+          <ssx unit="pix">1220</ssx>
+          <ssy unit="pix">1040</ssy>
+        </sensor>
+      </ior>
+      <eor>
+        <rotation transpose="1">
+          <rx rms="3.25715745661e-005" unit="rad">0.000323466734098</rx>
+          <ry rms="3.40317627141e-005" unit="rad">-4.48080545207e-005</ry>
+          <rz rms="4.15331186891e-006" unit="rad">1.58599744126</rz>
+        </rotation>
+        <translation>
+          <x rms="0.00896755167072" unit="mm">-8.74256586179e-017</x>
+          <y rms="0.00840112754776" unit="mm">100.024141784</y>
+          <z rms="0.0204825414235" unit="mm">0.0403868587709</z>
+        </translation>
+      </eor>
+    </camera>
+  </set>
+
+</metrology_calibration>
